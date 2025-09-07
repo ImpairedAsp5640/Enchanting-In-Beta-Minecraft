@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:diamond_leggings" },
+    { "item": "minecraft:diamond"},
+    { "item": "minecraft:diamond"},
+    { "item": "minecraft:diamond"},
+    { "item": "minecraft:diamond"},
+    { "item": "minecraft:book" }
+  ],
+  "result": {
+    "item": "enchantingbetamc:enchanted_diamond_leggings",
+    "count": 1
+  }
+}

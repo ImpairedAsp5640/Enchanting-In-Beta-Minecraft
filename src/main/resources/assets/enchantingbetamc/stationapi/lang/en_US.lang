@@ -1,0 +1,10 @@
+# @ is a shorthand for the current mod id, which is enchantingbetamc. E.g: tile.@.redclay.name
+item.@.enchanted_diamond_sword.name=§5Enchanted Diamond Sword
+item.@.enchanted_diamond_pickaxe.name=§5Enchanted Diamond Pickaxe
+item.@.enchanted_diamond_axe.name=§5Enchanted Diamond Axe
+item.@.enchanted_diamond_shovel.name=§5Enchanted Diamond Shovel
+item.@.enchanted_diamond_hoe.name=§5Enchanted Diamond Hoe
+item.@.enchanted_diamond_helmet.name=§5Enchanted Diamond Helmet
+item.@.enchanted_diamond_chestplate.name=§5Enchanted Diamond Chestplate
+item.@.enchanted_diamond_leggings.name=§5Enchanted Diamond Leggings
+item.@.enchanted_diamond_boots.name=§5Enchanted Diamond Boots

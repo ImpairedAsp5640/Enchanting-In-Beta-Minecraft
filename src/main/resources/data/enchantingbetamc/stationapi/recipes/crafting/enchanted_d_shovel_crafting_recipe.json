@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:diamond_shovel" },
+    { "item": "minecraft:diamond"},
+    { "item": "minecraft:diamond"},
+    { "item": "minecraft:book" }
+  ],
+  "result": {
+    "item": "enchantingbetamc:enchanted_diamond_shovel",
+    "count": 1
+  }
+}

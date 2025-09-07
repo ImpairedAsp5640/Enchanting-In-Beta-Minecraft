@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantingbetamc",
+  "version": "${version}",
+
+  "name": "Enchanting in b1.7.3",
+  "description": "It brings some enchantments from newer Minecraft, to the diamond sword tools, and it gives them buffs. The crafting recipes are actually cheap because the buffs are overpowered on the enchanted tools.",
+  "authors": [
+    "ImpairedAsp5640"
+  ],
+  "contact": {
+    "homepage": "https://glass-launcher.net/",
+    "sources": "https://github.com/calmilamsy/stationapi-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/enchantingbetamc/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "stationapi:event_bus": [
+      "io.github.asp5640.enchantingbetamc.events.init.InitListener",
+      "io.github.asp5640.enchantingbetamc.events.init.ItemListener"
+    ],
+    "stationapi:event_bus_client": [
+    ],
+    "stationapi:event_bus_server": [
+    ]
+  },
+  "mixins": [
+    "enchantingbetamc.mixins.json",
+    "mixins.enchantedbetamc.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.0.0-beta.7.3"
+  }
+}
